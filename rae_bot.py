@@ -41,7 +41,7 @@ def get_palabra(termino):
 		definition = f'La RAE define {termino} como:\n {parsed_definition}'
 		return definition
 	
-	except len(definition) < len(termino):
+	except:
 		return f'🤖 Error 404: {termino} not found\n ¿Hablas español?'
 
 
