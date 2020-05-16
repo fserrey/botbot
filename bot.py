@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-import telebot
-=======
 import telebot
 from telebot import types
 import re
@@ -54,4 +51,3 @@ def send_opciones(message):
     markup.row(item_dondehoy, item_dondeproximamente)
     markup.row(item_hedonadohoy, item_puedodonar)
     bot.send_message(message.chat.id, "\n\nPara continuar escribe un comando o seleccionalo directamente del menu inferior.", reply_markup=markup)
->>>>>>> 458af3d150fa5923041307658d507ace5705a5dd
